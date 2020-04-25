@@ -242,10 +242,10 @@ export default class Sky{
 
         this.elevation = 0.65;
         this.direction = 0.33;
-        this.cloudCover = 0.7;
+        this.cloudCover = 0.6;
         this.cloudThickness = 0.5;
-        this.cloudAmbient = 0.75;
-        this.cloudScale = 0.25;
+        this.cloudAmbient = 0.5;
+        this.cloudScale = 0.4;
         this.cloudHeight= 0.25;
         this.fog = 0.33;
         this.haze = 0.75;
