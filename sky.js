@@ -406,7 +406,7 @@ export default class Sky{
         var lowColor = new THREE.Color(1,0,0);
         var highColor = new THREE.Color(0.95,0.95,0.92);
 
-        var amount = Math.max(0,Math.pow(this.sunDirection.y,0.3));
+        var amount = Math.max(0,Math.pow(Math.max(0,this.sunDirection.y),0.3));
 
         this.sunLight.color=lowColor.lerp(highColor,amount)
 
